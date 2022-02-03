@@ -1,0 +1,30 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +24VA
+D Power symbol creates a global label with name "+24VA"
+K power-flag
+$ENDCMP
+#
+$CMP G5PZ-1A
+D Omron G5PZ relay, Compact Single Pole, SPST-NO, 16A
+K Compact 20A Power Relay
+F https://www.omron.com/ecb/products/pdf/en-g5q.pdf
+$ENDCMP
+#
+$CMP IR4427
+D High Speed, Dual Channel Power MOSFET Driver, DIP-8/SOIC-8
+K Driver, Dual MOSFET
+$ENDCMP
+#
+$CMP Olimex_ESP32-POE
+D 32-bit microcontroller module with WiFi
+K ESP32 WiFi POE Ethernet microcontroller Olimex
+$ENDCMP
+#
+$CMP RJ45_8port
+D RJ45 connector 8 port
+K 8P8C RJ female connector
+F ~
+$ENDCMP
+#
+#End Doc Library
