@@ -1,12 +1,13 @@
 (footprint "TMaschio_20x6.4mm" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
+  (descr "TMaschio signature, 20 x 6.4 mm")
   (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "" (at 0 0) (layer "F.SilkS") hide
+  (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp b5dbedc6-5e33-4da2-891c-de3aac1aad89)
   )
-  (fp_text value "" (at 0.75 0) (layer "F.SilkS") hide
+  (fp_text value "Val**" (at 0.75 0) (layer "F.SilkS") hide
     (effects (font (size 1.524 1.524) (thickness 0.3)))
     (tstamp 9a52d6a4-ec35-4a57-95d6-f8e1c328a743)
   )
