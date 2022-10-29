@@ -56,9 +56,9 @@
   (pad "12" thru_hole circle (at -6.625 -4.9) (size 1.5 1.5) (drill 0.8) (layers *.Cu *.Mask) (tstamp 52eb7765-f700-4c34-931a-65b235b3738e))
   (pad "SH" thru_hole circle (at -7.745 3.05) (size 3 3) (drill 1.7) (layers *.Cu *.Mask) (tstamp 72d46d22-1614-402d-95a0-2b95512e6341))
   (pad "SH" thru_hole circle (at 7.745 3.05) (size 3 3) (drill 1.7) (layers *.Cu *.Mask) (tstamp f0949793-f347-4349-a453-0e99a6f50281))
-  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/M-RJHSE-X080-REVT1.STEP"
-    (offset (xyz 3.5 1.5 3))
+  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A.wrl"
+    (offset (xyz 4.44 -6.35 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 180))
+    (rotate (xyz 0 0 180))
   )
 )
