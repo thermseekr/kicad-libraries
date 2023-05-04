@@ -139,4 +139,9 @@
   (pad "7" thru_hole circle (at 15.24 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 917dcd81-c6ff-40f4-a243-f90af22d70b0))
   (pad "8" thru_hole circle (at 17.78 -5.08) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 622586df-d189-4480-b999-433ce20071fc))
   (pad "8" thru_hole circle (at 17.78 0) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp f6a16835-e163-4348-9872-f4d35f962faf))
+  (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/Dorabo_DB141V-2.54-08P.stp"
+    (offset (xyz 18.7 6.8 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 180))
+  )
 )
