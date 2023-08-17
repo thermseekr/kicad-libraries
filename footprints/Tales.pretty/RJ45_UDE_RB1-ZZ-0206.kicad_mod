@@ -69,7 +69,7 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 400e0bac-ac54-4573-bfa6-c349dba5298c))
   (pad "" np_thru_hole circle (at 0 8.89) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp db67008d-7709-4920-88ce-fa1c4a518457))
   (pad "" np_thru_hole circle (at 11.43 8.89) (size 3.2 3.2) (drill 3.2) (layers "*.Cu" "*.Mask") (tstamp 1b2d88a5-81da-4ff1-88d4-e98ef047f735))
-  (pad "1" thru_hole rect (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp f0f0d8be-9d4e-4d5c-9a15-e60d45530d9c))
+  (pad "1" thru_hole circle (at 0 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp f0f0d8be-9d4e-4d5c-9a15-e60d45530d9c))
   (pad "2" thru_hole circle (at 1.27 2.54) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 43267cb9-7ca9-43c7-9961-8e259407c9b5))
   (pad "3" thru_hole circle (at 2.54 0) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 19558387-54c9-487c-b98b-57112ba3ca4d))
   (pad "4" thru_hole circle (at 3.81 2.54) (size 1.8 1.8) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 796a93f3-2010-439e-9e9e-e5fe1833ad6d))
@@ -84,9 +84,9 @@
   (pad "14" thru_hole circle (at -0.92 12.95) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 98fcf0de-5cd7-48b6-83d7-c95de042c062))
   (pad "15" thru_hole circle (at -2.04 5.84) (size 3 3) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp cdd64af5-5047-4434-97a0-f3db348bcda0))
   (pad "15" thru_hole circle (at 13.46 5.84) (size 3 3) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 4999758c-1170-4947-8bee-697a99420d56))
-  (model "${KICAD6_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Abracon_ARJP11A-MA_Horizontal.wrl"
-    (offset (xyz 0 0 0))
+  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/ARJP11A.STEP"
+    (offset (xyz 5.7 -9 7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz -90 0 0))
   )
 )

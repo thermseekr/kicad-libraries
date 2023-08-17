@@ -64,7 +64,7 @@
   (pad "9" thru_hole circle (at 0.65 -0.65) (size 0.8 0.8) (drill 0.3) (layers "*.Cu") (tstamp 47601c0c-a16b-4ff0-859c-40a5e457aff7))
   (pad "9" thru_hole circle (at 0.65 0.65) (size 0.8 0.8) (drill 0.3) (layers "*.Cu") (tstamp 4ac525cb-9595-481f-b788-477201a22c3e))
   (pad "9" thru_hole circle (at 0.65 1.95) (size 0.8 0.8) (drill 0.3) (layers "*.Cu") (tstamp e37deabe-ae2f-431c-b262-9465b389b609))
-  (model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.95x4.9mm_Mask2.71x3.4mm.wrl"
+  (model "${KICAD7_3DMODEL_DIR}/Package_SO.3dshapes/SO-8_3.9x4.9mm_P1.27mm.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

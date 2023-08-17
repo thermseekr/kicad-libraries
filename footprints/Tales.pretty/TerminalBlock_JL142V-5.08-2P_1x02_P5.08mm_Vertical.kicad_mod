@@ -85,7 +85,7 @@
   (pad "1" thru_hole circle (at 0 0) (size 3 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 67ca721e-7d44-4286-b893-ef6153642d92))
   (pad "2" thru_hole circle (at 5.08 -7.62) (size 3 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 1a0c1ed6-fd6c-48aa-84c6-97dc1a66aba4))
   (pad "2" thru_hole circle (at 5.08 0) (size 3 3) (drill 1.3) (layers "*.Cu" "*.Mask") (tstamp 501cf31c-2e42-42d2-aaca-3d32e45f59f3))
-  (model "/Users/talesmaschio/Library/CloudStorage/Dropbox/GitHub/Kicad/kicad-libraries/3dmodels/TerminalBlock.3dshapes/DG142V-2-5.08.STEP"
+  (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/DG142V-2-5.08.STEP"
     (offset (xyz -5.1 -4.1 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
