@@ -154,8 +154,8 @@
   (pad "9" thru_hole circle (at 20.32 -5.08 180) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 67ca721e-7d44-4286-b893-ef6153642d92))
   (pad "9" thru_hole circle (at 20.32 0 180) (size 1.8 1.8) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 364fb8de-5c1d-47c2-8d55-7e516794c03a))
   (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/DG141V-2.54-9P.STEP"
-    (offset (xyz 0 0 0))
+    (offset (xyz 20.32 5.08 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 180))
   )
 )
