@@ -1,11 +1,11 @@
 (footprint "CTL-logo_8x8mm_Silkscreen" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr board_only exclude_from_pos_files exclude_from_bom)
-  (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
+  (fp_text reference "" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     (tstamp f3ff2441-f5e5-45f0-a0c1-1babf963ae1b)
   )
-  (fp_text value "LOGO" (at 0.75 0) (layer "F.SilkS") hide
+  (fp_text value "" (at 0.75 0) (layer "F.SilkS") hide
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     (tstamp 80d659b2-6f2e-4fac-b7a3-498a1d7635e9)
   )

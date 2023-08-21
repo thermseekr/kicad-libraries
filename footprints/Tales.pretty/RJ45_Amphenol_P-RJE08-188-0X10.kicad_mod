@@ -57,9 +57,14 @@
   (pad "6" thru_hole circle (at 1.905 -2.54) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 685e6150-e36f-47e8-b723-9a93196f7f6d))
   (pad "7" thru_hole circle (at 3.175 0) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 17c369cf-c27d-429e-9fd7-b60e8872935e))
   (pad "8" thru_hole circle (at 4.445 -2.54) (size 1.6 1.6) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4c7091d4-515a-46e1-8ca0-f82aa5cb62fb))
-  (model "/Users/talesmaschio/Library/CloudStorage/Dropbox/GitHub/Kicad/kicad-libraries/3dmodels/Connector_RJ.3dshapes/RJE081880110--3DModel-STEP-56544.STEP"
+  (model "$TDEV_3DMODEL_DIR/Connector_RJ.3dshapes/RJE081880110.STEP" hide
     (offset (xyz -0 -6.35 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))
+  )
+  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/955032884.STEP"
+    (offset (xyz 0 -6.35 7.8))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -90))
   )
 )
