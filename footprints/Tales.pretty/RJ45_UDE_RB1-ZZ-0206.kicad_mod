@@ -84,7 +84,7 @@
   (pad "14" thru_hole circle (at -0.92 12.95) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 98fcf0de-5cd7-48b6-83d7-c95de042c062))
   (pad "15" thru_hole circle (at -2.04 5.84) (size 3 3) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp cdd64af5-5047-4434-97a0-f3db348bcda0))
   (pad "15" thru_hole circle (at 13.46 5.84) (size 3 3) (drill 1.7) (layers "*.Cu" "*.Mask") (tstamp 4999758c-1170-4947-8bee-697a99420d56))
-  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/ARJP11A.STEP"
+  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_UDE_RB1-ZZ-0206.stp"
     (offset (xyz 5.7 -9 7))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -1,4 +1,4 @@
-(footprint "RJ45_Amphenol_RJHSE5080" (version 20221018) (generator pcbnew)
+(footprint "RJ45_CKMTW_R-RJ45R08P-A004" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Unshielded")
   (tags "RJ45 8p8c ethernet cat5")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ab962808-f856-4da6-875e-d33b9b900c1c)
   )
-  (fp_text value "RJ45_Amphenol_RJHSE5080" (at 3.56 10.795) (layer "F.Fab")
+  (fp_text value "RJ45_CKMTW_R-RJ45R08P-A004" (at 3.56 10.795) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3019cd7d-d905-4256-ac07-1e58a26f3c06)
   )
@@ -57,7 +57,7 @@
   (pad "6" thru_hole circle (at 5.08 1.78) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 685e6150-e36f-47e8-b723-9a93196f7f6d))
   (pad "7" thru_hole circle (at 6.096 0) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 17c369cf-c27d-429e-9fd7-b60e8872935e))
   (pad "8" thru_hole circle (at 7.112 1.78) (size 1.5 1.5) (drill 0.8) (layers "*.Cu" "*.Mask") (tstamp 4c7091d4-515a-46e1-8ca0-f82aa5cb62fb))
-  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Amphenol_RJHSE-X080-REVT1.stp"
+  (model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_CKMTW_R-RJ45R08P-A004.stp"
     (offset (xyz 3.5 1.55 2.6))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 180))

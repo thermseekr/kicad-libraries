@@ -83,7 +83,7 @@
   (pad "S1" thru_hole oval (at 3.775 0 90) (size 0.95 1.35) (drill oval 0.55 0.95) (layers "*.Cu" "*.Mask") (tstamp cc636615-efed-458e-9da9-2828f5b46756))
   (pad "S1" thru_hole oval (at 4.1 -3.07 90) (size 1.2 1.7) (drill oval 0.8 1.3) (layers "*.Cu" "*.Mask") (tstamp 46e9628b-2354-46e5-b290-650a60c320b4))
   (pad "S1" thru_hole oval (at 4.1 3.07 90) (size 1.2 1.7) (drill oval 0.8 1.3) (layers "*.Cu" "*.Mask") (tstamp 4e5c735a-c97f-4be9-a6dd-09675a400778))
-  (model "${TDEV_3DMODEL_DIR}/Connector_USB.3dshapes/K3D-DX07S024WJ1-V1_JAE_Proprietary.step"
+  (model "${TDEV_3DMODEL_DIR}/Connector_USB.3dshapes/USB_K3D-DX07S024WJ1-V1_JAE_Proprietary.stp"
     (offset (xyz 0 0 7.3))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
