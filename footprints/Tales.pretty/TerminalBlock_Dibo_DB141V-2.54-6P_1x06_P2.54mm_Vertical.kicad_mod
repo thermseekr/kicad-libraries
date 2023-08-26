@@ -168,8 +168,8 @@
   (pad "6" thru_hole circle (at 12.7 -5.08 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 67ca721e-7d44-4286-b893-ef6153642d92))
   (pad "6" thru_hole circle (at 12.7 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 364fb8de-5c1d-47c2-8d55-7e516794c03a))
   (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB141V-254-6P.stp"
-    (offset (xyz 12.7 5.08 0))
+    (offset (xyz 11.75 -2.87 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 -90 90))
   )
 )

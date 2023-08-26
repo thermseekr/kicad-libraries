@@ -233,9 +233,9 @@
   (pad "8" thru_hole circle (at 17.78 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 1a0c1ed6-fd6c-48aa-84c6-97dc1a66aba4))
   (pad "9" thru_hole circle (at 20.32 -5.08 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 67ca721e-7d44-4286-b893-ef6153642d92))
   (pad "9" thru_hole circle (at 20.32 0 180) (size 2 2) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 364fb8de-5c1d-47c2-8d55-7e516794c03a))
-  (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB141V-254-9P.stp"
-    (offset (xyz 20.32 5.08 0))
+  (model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB141V-254-9P.stp"
+    (offset (xyz 19.37 -2.87 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 180))
+    (rotate (xyz 0 -90 90))
   )
 )
