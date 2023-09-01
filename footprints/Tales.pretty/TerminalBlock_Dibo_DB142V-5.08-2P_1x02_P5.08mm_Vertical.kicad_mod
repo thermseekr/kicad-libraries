@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (attr through_hole)
   (fp_text reference "REF**" (at 2.54 2.54 unlocked) (layer "F.SilkS")
-      (effects (font (size 1 1) (thickness 0.1)))
+      (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ee7425d7-0bc2-49df-9cfa-4dc0cadac0cc)
   )
   (fp_text value "TerminalBlock_Dibo_DB142V-5.08-2P_1x02_P5.08mm_Vertical" (at 2.54 5.08 unlocked) (layer "F.Fab")
