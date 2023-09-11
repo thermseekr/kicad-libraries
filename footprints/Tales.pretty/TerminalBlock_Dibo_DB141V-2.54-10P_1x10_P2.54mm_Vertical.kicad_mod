@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp ee7425d7-0bc2-49df-9cfa-4dc0cadac0cc)
   )
-  (fp_text value "TerminalBlock_Dibo_DB141V-2.54-10P_1x10_P2.54mm_Vertical" (at 8.89 8.89 unlocked) (layer "F.Fab")
+  (fp_text value "TerminalBlock_Dibo_DB141V-2.54-10P_1x10_P2.54mm_Vertical" (at 8.89 8.89 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3da4b727-10a6-4e95-a5b5-1f044b1da6c6)
   )
