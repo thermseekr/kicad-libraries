@@ -3578,7 +3578,7 @@
     (property "Value" "SMAJ24CA" (at 0 -2.54 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal" (at 0 -5.08 0)
+    (property "Footprint" "Tales:D_SMA" (at 0 -5.08 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 0 0 0)
