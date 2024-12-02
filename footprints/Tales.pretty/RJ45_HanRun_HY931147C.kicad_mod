@@ -1,4 +1,4 @@
-(footprint "RJ45_UDE_RB1-ZZ-0206"
+(footprint "RJ45_HanRun_HY931147C"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "RJ45_UDE_RB1-ZZ-0206"
+	(property "Value" "RJ45_HanRun_HY931147C"
 		(at 5.71 21.2 0)
 		(layer "F.Fab")
 		(uuid "5cdb3e3f-35de-4624-a221-2e8a4922087a")
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "11151939-42b5-4a87-a913-a1f48717cc4b")
+		(uuid "64ad8bf8-a47a-4cf0-a502-2335d230b1bc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9cac95ab-89c0-4714-a798-81af6590bf3e")
+		(uuid "a30da31f-ffa8-467c-9dce-07a61bf1aaf9")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -55,7 +55,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "cf9f4e78-1e8c-4212-afac-88bebc8829a9")
+		(uuid "b8040fb5-4b65-49f7-986d-1f7702abf2c6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -404,6 +404,14 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "eb0ce354-eb57-46ce-8ed8-cb565239eb73")
+	)
+	(pad "8" thru_hole circle
+		(at 8.89 2.54)
+		(size 1.8 1.8)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6f31e060-3048-4ac1-96fa-9c804fc7b70a")
 	)
 	(pad "9" thru_hole circle
 		(at 10.16 0)
