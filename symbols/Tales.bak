@@ -8621,6 +8621,42 @@
 					)
 				)
 			)
+			(pin no_connect line
+				(at -17.78 -5.08 0)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -8.89 0)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_out line
 				(at -17.78 -13.97 0)
 				(length 2.54)
@@ -8691,15 +8727,6 @@
 			)
 		)
 		(property "ki_keywords" "single port ethernet transformer socket poe center-tap"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "RJ45*Abracon*ARJP11A?MA*"
 			(at 0 0 0)
 			(effects
 				(font
