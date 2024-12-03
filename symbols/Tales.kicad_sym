@@ -6268,7 +6268,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Tales:RJ45_UDE_RB1-ZZ-0206"
+		(property "Footprint" "Tales:RJ45_HanRun_HY931147C"
 			(at 0 -50.8 0)
 			(effects
 				(font
@@ -8614,6 +8614,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -5.08 0)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin no_connect line
+				(at -17.78 -8.89 0)
+				(length 2.54) hide
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
