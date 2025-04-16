@@ -1,33 +1,234 @@
-(module LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1)
-  (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
-  (tags LED)
-  (attr smd)
-  (fp_text reference REF** (at 0 -1.43) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value LED_0603_1608Metric (at 0 1.43) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start 1.48 0.73) (end -1.48 0.73) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.48 -0.73) (end 1.48 0.73) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.48 -0.73) (end 1.48 -0.73) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.48 0.73) (end -1.48 -0.73) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.485 0.735) (end 0.8 0.735) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.485 -0.735) (end -1.485 0.735) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0.8 -0.735) (end -1.485 -0.735) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer F.Fab) (width 0.1))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.4 0.4) (thickness 0.06)))
-  )
-  (pad 1 smd roundrect (at -0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (pad 2 smd roundrect (at 0.7875 0) (size 0.875 0.95) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
-  (model ${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_0603_1608Metric"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -1.43 0)
+		(layer "F.SilkS")
+		(uuid "5590ba9f-b16a-4094-8964-405370e3b53f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_0603_1608Metric"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "c973a55e-8077-4f8f-afd0-ca6cda315dce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e79de324-09c4-41e1-bf8f-229273fc1ce5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29d10e32-a5a4-418d-9226-57db04d05cc2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "754da878-98ad-4873-89be-7dc37d1d8d88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.3 -0.254)
+		(end -1.3 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0c2963fc-c846-41c5-b085-b5975ee9d31d")
+	)
+	(fp_line
+		(start -1.3 0.6)
+		(end 0.8 0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ef09c4fa-86da-41c9-8b54-9f92dd52d7ea")
+	)
+	(fp_line
+		(start 0.8 -0.6)
+		(end -0.95 -0.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "13d531bb-046b-48c5-b72b-5b146fe85f51")
+	)
+	(fp_circle
+		(center -1.3 -0.6)
+		(end -1.1 -0.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "dd685e0e-8fcb-48be-a57c-cac12a978a70")
+	)
+	(fp_line
+		(start -1.28 -0.73)
+		(end 1.48 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b88d75f-da80-4ffa-a4c4-4d7230d77eff")
+	)
+	(fp_line
+		(start -1.28 0.73)
+		(end -1.28 -0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b1c7c5dc-223b-4e1a-b7a4-24a3c9968129")
+	)
+	(fp_line
+		(start 1.48 -0.73)
+		(end 1.48 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "55fe75b4-f83f-4823-8b6a-f66fb845ffe9")
+	)
+	(fp_line
+		(start 1.48 0.73)
+		(end -1.28 0.73)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4c976cf-2abf-4539-8e3b-b7f77ec197e1")
+	)
+	(fp_line
+		(start -0.8 -0.1)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "990f531b-4ab9-4211-86ba-eecd9834b61b")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "893fc47d-9224-4d63-897e-96abd5b8a79b")
+	)
+	(fp_line
+		(start -0.5 -0.4)
+		(end -0.8 -0.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e92e0225-ea90-4d64-8a3a-3fdbde1d7ee9")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end -0.5 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f26950b6-2de3-46cc-8165-a7f837584235")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26f229c4-650e-43f0-870a-45b687fac09b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e0ce0ae7-53f9-436e-afe1-7cfd81f2a825")
+		(effects
+			(font
+				(size 0.4 0.4)
+				(thickness 0.06)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "766e0ce6-7a5c-417d-94d1-d78a9c0956c8")
+	)
+	(pad "2" smd roundrect
+		(at 0.7875 0)
+		(size 0.875 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(uuid "d45a09f3-e845-4c3b-af2d-77f5c4b16df5")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
