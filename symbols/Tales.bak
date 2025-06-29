@@ -12032,7 +12032,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 7.62 270)
+				(at -5.08 -7.62 90)
 				(length 2.54)
 				(name "~"
 					(effects
@@ -12050,7 +12050,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -7.62 90)
+				(at -5.08 7.62 270)
 				(length 2.54)
 				(name "~"
 					(effects
