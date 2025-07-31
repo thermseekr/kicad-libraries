@@ -1,7 +1,7 @@
 (footprint "RJ45_HanRun_HY931147C"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Shielded RJ45 ethernet connector with transformer and POE")
 	(tags "ethernet 8p8c transformer poe rj45")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "64ad8bf8-a47a-4cf0-a502-2335d230b1bc")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -430,22 +418,14 @@
 		(uuid "ac6f6033-0704-4ef2-b00e-9ac7f1bbc03a")
 	)
 	(pad "11" thru_hole circle
-		(at 12.34 12.95)
+		(at -0.92 12.95)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "0a98bef9-db8b-4871-b7a6-907fad1bb030")
+		(uuid "98fcf0de-5cd7-48b6-83d7-c95de042c062")
 	)
 	(pad "12" thru_hole circle
-		(at 9.8 12.95)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ceedb2c2-ea6a-4fe9-9163-56f91ea7fee5")
-	)
-	(pad "13" thru_hole circle
 		(at 1.62 12.95)
 		(size 2 2)
 		(drill 1)
@@ -453,13 +433,21 @@
 		(remove_unused_layers no)
 		(uuid "dda487f3-7f77-4acf-a626-f1ce6a92e401")
 	)
-	(pad "14" thru_hole circle
-		(at -0.92 12.95)
+	(pad "13" thru_hole circle
+		(at 9.8 12.95)
 		(size 2 2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "98fcf0de-5cd7-48b6-83d7-c95de042c062")
+		(uuid "ceedb2c2-ea6a-4fe9-9163-56f91ea7fee5")
+	)
+	(pad "14" thru_hole circle
+		(at 12.34 12.95)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0a98bef9-db8b-4871-b7a6-907fad1bb030")
 	)
 	(pad "15" thru_hole circle
 		(at -2.04 5.84)
@@ -477,6 +465,7 @@
 		(remove_unused_layers no)
 		(uuid "4999758c-1170-4947-8bee-697a99420d56")
 	)
+	(embedded_fonts no)
 	(model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_UDE_RB1-ZZ-0206.stp"
 		(offset
 			(xyz 5.7 -9 7)
