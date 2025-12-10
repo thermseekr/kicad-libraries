@@ -524,13 +524,13 @@
 	(embedded_fonts no)
 	(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_DB142V-508-2P.stp"
 		(offset
-			(xyz 7.6 9.1 0)
+			(xyz 5.07 5.34 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 90 90)
+			(xyz -0 90 90)
 		)
 	)
 )

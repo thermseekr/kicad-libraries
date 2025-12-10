@@ -305,13 +305,13 @@
 	(embedded_fonts no)
 	(model "$TDEV_3DMODEL_DIR/Connector_RJ.3dshapes/RJ45_CKMTW_R-RJ45S08P-A004.stp"
 		(offset
-			(xyz -0 -6.35 0)
+			(xyz -0 -7.62 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )
