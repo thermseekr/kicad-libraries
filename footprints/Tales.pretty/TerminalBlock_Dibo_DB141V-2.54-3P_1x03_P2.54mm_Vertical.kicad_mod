@@ -163,7 +163,7 @@
 		(uuid "3c98c9d3-fb3b-48e1-aa87-b3dd1001000c")
 	)
 	(fp_line
-		(start 6.83 5.54)
+		(start 6.72 5.54)
 		(end -3.44 5.54)
 		(stroke
 			(width 0.1)
