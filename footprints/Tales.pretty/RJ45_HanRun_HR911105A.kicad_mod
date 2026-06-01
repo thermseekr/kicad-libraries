@@ -431,7 +431,7 @@
 		(uuid "72d46d22-1614-402d-95a0-2b95512e6341")
 	)
 	(embedded_fonts no)
-	(model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A.wrl"
+	(model "${TDEV_3DMODEL_DIR}/Connector_RJ.3dshapes/RJ45_Hanrun_HR911105A.step"
 		(offset
 			(xyz -4.5 6.4 0)
 		)

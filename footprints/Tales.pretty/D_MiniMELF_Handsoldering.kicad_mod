@@ -36,7 +36,7 @@
   (fp_line (start -0.75 0) (end -0.35 0) (layer "F.Fab") (width 0.1) (tstamp d9b51766-7d2a-4f53-ad7b-7441e6a28c06))
   (pad "1" smd rect (at -2.75 0) (size 3.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d5d7a795-41e6-4ae9-9859-b5210c414a61))
   (pad "2" smd rect (at 2.75 0) (size 3.3 1.7) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f2a1b52a-c89b-4fcd-9c39-f65354d2273f))
-  (model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.wrl"
+  (model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_MiniMELF.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

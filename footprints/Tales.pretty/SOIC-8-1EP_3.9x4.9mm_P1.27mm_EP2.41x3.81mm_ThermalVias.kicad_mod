@@ -360,7 +360,7 @@
 		(remove_unused_layers no)
 		(uuid "8de7d96d-d71d-47a0-9034-19628cd17158")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

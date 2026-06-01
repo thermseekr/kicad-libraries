@@ -241,7 +241,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "1dcf5c38-dc92-4f2b-950b-093a98c07143")
 	)
-	(model "${KICAD8_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-6-1EP_3x3mm_P0.95mm_EP1.7x2.6mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

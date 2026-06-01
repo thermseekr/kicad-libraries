@@ -268,7 +268,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "7127fdb6-0da2-40bc-912b-3f54f1e12da6")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Diode_SMD.3dshapes/D_SMA.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -251,7 +251,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "cfa11c95-101c-42cf-a954-aeba6911b318")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.wrl"
+	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TSOT-23-5.step"
 		(offset
 			(xyz 0 0 0)
 		)

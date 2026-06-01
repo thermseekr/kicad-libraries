@@ -200,7 +200,7 @@
 		(uuid "1a0a5065-ede2-4d96-ac32-8e96204b743a")
 	)
 	(embedded_fonts no)
-	(model "${KICAD7_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D7mm_W3.6mm_P5mm.step"
+	(model "${KICAD10_3DMODEL_DIR}/Varistor.3dshapes/RV_Disc_D7mm_W3.6mm_P5mm.step"
 		(offset
 			(xyz -2.58 0 0)
 		)
