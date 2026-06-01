@@ -1,0 +1,224 @@
+(footprint "TerminalBlock_Wago_250-203_1x03_P3.5mm_45Degree"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(tags "250-203 ")
+	(property "Reference" "REF**"
+		(at -7 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "93035327-c2e2-4380-81ea-860ea82b61d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Wago 250-203"
+		(at -0.749934 8.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3216aaba-7c38-4e06-ba36-11dd75579a4f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1bc848fa-95c3-4833-802f-524d5fa58cc5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "274c5920-af6a-40c7-9340-023305f317e4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -6.876932 -4.927001)
+		(end -6.876932 7.326998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f3262f29-95e3-474f-806b-020d358037b5")
+	)
+	(fp_line
+		(start -6.876932 7.326998)
+		(end 5.377064 7.326998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62d6d08d-62fd-4117-a84b-2937690f7b6e")
+	)
+	(fp_line
+		(start 5.377064 -4.927001)
+		(end -6.876932 -4.927001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0472a492-f6d2-40f7-8e00-cc889a0b86e8")
+	)
+	(fp_line
+		(start 5.377064 7.326998)
+		(end 5.377064 -4.927001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "51e2be73-fb0f-498f-ad60-83a07a93da96")
+	)
+	(fp_line
+		(start -7.003932 -5.054001)
+		(end -7.003932 7.453998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b1bb419-f472-4603-9d52-aba913cbc442")
+	)
+	(fp_line
+		(start -7.003932 7.453998)
+		(end 5.504064 7.453998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0690d97c-f67a-46a4-9a70-11e4766e4e77")
+	)
+	(fp_line
+		(start 5.504064 -5.054001)
+		(end -7.003932 -5.054001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8d95789b-9fe4-4300-910e-1f5e698959f8")
+	)
+	(fp_line
+		(start 5.504064 7.453998)
+		(end 5.504064 -5.054001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d9a37046-1ff0-4e01-a8a4-1f96b5aa1f07")
+	)
+	(fp_line
+		(start -6.749932 -4.800001)
+		(end -6.749932 7.199998)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "442abe7c-7c89-49c6-9918-8a87932295fd")
+	)
+	(fp_line
+		(start -6.749932 7.199998)
+		(end 5.250064 7.199998)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b7f12b46-be9f-4f1b-88dc-68583d87b3f7")
+	)
+	(fp_line
+		(start 5.250064 -4.800001)
+		(end -6.749932 -4.800001)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2d06ee8d-9a38-4e83-b245-619d9a553f0b")
+	)
+	(fp_line
+		(start 5.250064 7.199998)
+		(end 5.250064 -4.800001)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb3af19-8032-4844-82d0-dfdaf5bec8f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.749934 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "40cf56d9-5b76-4f83-92f6-af64c549fab3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -3.5 2.5)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3fd01879-f07f-45b3-95d2-6492202cdec2")
+	)
+	(pad "2" thru_hole circle
+		(at 0.000001 -2.5)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b561437d-925f-42af-b814-f2cbbeb8b158")
+	)
+	(pad "3" thru_hole circle
+		(at 3.500001 2.5)
+		(size 3 3)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2d1cf55a-3eb8-4e44-8413-04e7fbbb37e9")
+	)
+	(embedded_fonts no)
+	(model "${TDEV_3DMODEL_DIR}/TerminalBlock.3dshapes/TerminalBlock_Wago_250-203.stp"
+		(offset
+			(xyz 5.25 -2.5 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
